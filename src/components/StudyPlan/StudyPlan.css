@@ -1,0 +1,20 @@
+.study-plan-container{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+}
+
+.subjects{
+    background-color: white;
+}
+
+.study-calculation{
+    background-color: white;
+}
+
+@media only screen and (max-width: 1000px) {
+.study-plan-container{
+    display: grid;
+    grid-template-columns: 1fr;
+
+}
+}

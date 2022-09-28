@@ -1,10 +1,7 @@
-import logo from './logo.svg';
 import './App.css';
-
+import StudyPlan from './components/StudyPlan/StudyPlan';
 function App() {
-  return <div className="App">
-    
-  </div>;
+  return <StudyPlan></StudyPlan>;
 }
 
 export default App;
