@@ -1,0 +1,44 @@
+[
+  {
+    "id": "1",
+    "subjectName": "Mathematics",
+    "subjectDetails": "Mathematics, the science of structure, order, and relation that has evolved from elemental practices of counting, measuring, and describing the shapes of objects.",
+    "time": 2,
+    "img": "https://previews.123rf.com/images/gow27/gow271601/gow27160100112/50745254-math-theory-and-mathematical-formula-equation-doodle-handwriting-icon-in-blackboard-background-with-.jpg?fj=1"
+  },
+  {
+    "id": "2",
+    "subjectName": "Physics",
+    "subjectDetails": "Physics, science that deals with the structure of matter and the interactions between the fundamental constituents of the observable universe.",
+    "time": 1,
+    "img": "https://previews.123rf.com/images/gow27/gow271601/gow27160100114/50745349-physics-science-theory-law-and-mathematical-formula-equation-doodle-handwriting-and-model-icon-in-in.jpg?fj=1"
+  },
+  {
+    "id": "3",
+    "subjectName": "Statistics",
+    "subjectDetails": "Statistics, the science of collecting, analyzing, presenting, and interpreting data. Governmental needs for census data as well as information about a variety of economic activities provided much of the early impetus for the field of statistics. ",
+    "time": 1.5,
+    "img": "https://previews.123rf.com/images/gow27/gow271511/gow27151100055/49180482-statistic-math-law-theory-and-mathematical-formula-equation-doodle-chalk-handwriting-icon-with-graph.jpg?fj=1"
+  },
+  {
+    "id": "4",
+    "subjectName": "Quantum Theory",
+    "subjectDetails": "Quantum theory is the theoretical basis of modern physics that explains the nature and behavior of matter and energy on the atomic and subatomic level.",
+    "time": 2.5,
+    "img": "https://previews.123rf.com/images/gow27/gow271508/gow27150800033/44046178-quantum-theory-law-and-physics-mathematical-formula-equation-doodle-handwriting-icon-in-blackboard-b.jpg?fj=1"
+  },
+  {
+    "id": "5",
+    "subjectName": "Calculus",
+    "subjectDetails": "Calculus, branch of mathematics concerned with the calculation of instantaneous rates of change (differential calculus) and the summation of infinitely many small factors to determine some whole (integral calculus).",
+    "time": 3,
+    "img": "https://previews.123rf.com/images/gow27/gow271603/gow27160300088/54099976-calculus-law-theory-and-mathematical-formula-equation-doodle-handwriting-icon-in-blackboard-backgrou.jpg?fj=1"
+  },
+  {
+    "id": "6",
+    "subjectName": "Chemistry",
+    "subjectDetails": "Chemistry, the science that deals with the properties, composition, and structure of substances (defined as elements and compounds), the transformations they undergo, and the energy that is released or absorbed during these processes.",
+    "time": 2.5,
+    "img": "https://previews.123rf.com/images/gow27/gow271601/gow27160100113/50743081-chemistry-science-theory-and-bonding-formula-equation-doodle-handwriting-and-tool-model-icon-in-blac.jpg?fj=1"
+  }
+]
