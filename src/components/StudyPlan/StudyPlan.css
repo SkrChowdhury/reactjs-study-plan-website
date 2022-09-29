@@ -3,12 +3,10 @@
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    margin: 20px 0px 0px 20px;
+   background-color:coral;
+   padding: 10px 0px 10px 0px;
 }
-.web-main{
-    margin-left: 40px;
 
-}
 .web-name img{
     width: 60px;
     margin-right: 20px;
@@ -16,19 +14,20 @@
 }
 
 .web-name h4{
-    color: coral;
+    color: white;
     font-size: 30px;
     margin-top: 10px;
     font-weight: 700;
 }
 .web-title{
-    margin: 20px 0px 0px 100px;
+  
     font-weight: 700;
     font-size: 20px;
 }
 .study-plan-container{
     display: grid;
     grid-template-columns: 7fr 3fr; 
+    position: relative;
 }
 
 .subjects{
@@ -40,8 +39,14 @@ border-radius: 30px;
 }
 
 .study-calculation{
-    margin: 0px 0px 0px 10px;
+    margin: 10px 0px 0px 10px;
     background-color: white;
+    height: 700px;
+    border-radius: 30px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    position: sticky;
+    top: 0;
+
     
 }
 
@@ -50,5 +55,10 @@ border-radius: 30px;
     display: grid;
     grid-template-columns: 1fr;
 
+
+
 }
+    .web-title{
+        text-align: center;
+    }
 }

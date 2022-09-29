@@ -1,0 +1,16 @@
+
+.card-horizontal {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+}
+.card-horizontal img{
+    width: 800px;
+    height: 100%;
+}
+
+@media only screen and (max-width:1000px) {
+   .card-horizontal {
+  display: grid;
+  grid-template-columns: 1fr;
+} 
+}

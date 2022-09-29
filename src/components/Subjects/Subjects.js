@@ -8,7 +8,7 @@ const Subjects = (props) => {
     <div>
       <div className="col">
         <div className="card shadow-sm">
-          <img srcSet={img} className="card-img-top rounded shadow-lg" alt="..."></img>
+          <img srcSet={img} className="card-img-top rounded shadow-sm" alt="..."></img>
           <div className="card-body">
             <h5 className="card-title fw-bold fs-4">{subjectName}</h5>
             <p className="card-text text-justify text-gray">
