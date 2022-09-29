@@ -1,10 +1,14 @@
 import './StudyCalculation.css';
 import React from 'react';
 import userImage from '../../user-image.png';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faLocationDot } from '@fortawesome/free-solid-svg-icons';
 
 const StudyCalculation = (props) => {
+  const { studyTimes } = props;
+
+  let totalStudyTime = 0;
+  for (const breakTime of studyTimes) {
+    totalStudyTime = totalStudyTime + breakTime.time;
+  }
   return (
     <div className="sidebar">
       <div className="user">
@@ -44,9 +48,9 @@ const StudyCalculation = (props) => {
 
       <div>
         <p className="fs-5 fw-bold text-start">Study Details</p>
-        <p className="time-style">Selected Subjects: {props.studyTimes.length} </p>
+        <p className="time-style">Selected Subjects: {studyTimes.length} </p>
 
-        <p className="time-style">Study Time : </p>
+        <p className="time-style">Study Time :{totalStudyTime} Minutes </p>
         <p className="time-style">Break Time: </p>
       </div>
 
