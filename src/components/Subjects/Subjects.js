@@ -15,10 +15,10 @@ const Subjects = ({ handleAddToList, subject }) => {
           <div className="card-body">
             <h5 className="card-title fw-bold fs-4">{subjectName}</h5>
             <p className="card-text text-justify text-gray">
-              {subjectDetails.slice(0, 110) + ' ... See More ...'}
+              {subjectDetails.slice(0, 110) + ' .. See More ..'}
             </p>
-            <p className="card-text fs-5 fw-bold">
-              Time Required: {time} hours{' '}
+            <p className="card-text fw-bold">
+              Time Required: {time} Minutes{' '}
             </p>
 
             <button

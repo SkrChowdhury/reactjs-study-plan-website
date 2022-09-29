@@ -7,17 +7,17 @@ import Blogs from '../Blogs/Blogs';
 
 const StudyPlan = () => {
   const [subjects, setSubjects] = useState([]);
-  const [studyTimes,setStudyTimes] = useState([]);
+  const [studyTimes, setStudyTimes] = useState([]);
   useEffect(() => {
     fetch('subjects.json')
       .then((res) => res.json())
       .then((data) => setSubjects(data));
   }, []);
 
-  const handleAddToList = (subject) =>{
-    const newStudyTimes = [...studyTimes,subject];
+  const handleAddToList = (subject) => {
+    const newStudyTimes = [...studyTimes, subject];
     setStudyTimes(newStudyTimes);
-  }
+  };
 
   return (
     <div>
