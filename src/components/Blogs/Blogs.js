@@ -5,7 +5,7 @@ import React from 'react';
 const Blogs = () => {
   return (
     <div className="mt-5">
-      <h3 className="fs-4 fw-bold ms-5 text-center text-lg-start">Blogs</h3>
+      <h3 className="fs-4 fw-bold ms-lg-5 text-center text-lg-start">Blogs</h3>
       <div className="card p-5 mt-3 rounded-top ">
         <div className="card-horizontal shadow-lg">
           <div className="img-square-wrapper">
