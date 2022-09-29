@@ -1,19 +1,27 @@
 import './Subjects.css';
-import logo from '../../logo.webp';
-import React from 'react';
-import Subject from '../Subject/Subject';
 
-const Subjects = () => {
+import React from 'react';
+
+const Subjects = (props) => {
+  const { subjectName, subjectDetails, time, img } = props.subject;
   return (
     <div>
-      <div className='web-main'>
-        <div className="web-name">
-          <img src={logo} alt="" srcset="" />
-          <h4>Study Plan</h4>
+      <div className="col">
+        <div className="card shadow-sm">
+          <img srcSet={img} className="card-img-top rounded shadow-lg" alt="..."></img>
+          <div className="card-body">
+            <h5 className="card-title fw-bold fs-4">{subjectName}</h5>
+            <p className="card-text text-justify text-gray">
+              {subjectDetails.slice(0, 110) + ' ... See More ...'}
+            </p>
+            <p className="card-text fs-5 fw-bold">
+              Time Required: {time} hours{' '}
+            </p>
+
+            <button className="btn-add-to-list">Add to List</button>
+          </div>
         </div>
-        <p className="web-title">Select Todays Study Plan</p>
       </div>
-      <Subject></Subject>
     </div>
   );
 };

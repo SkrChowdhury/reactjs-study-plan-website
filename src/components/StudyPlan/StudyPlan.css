@@ -1,10 +1,39 @@
+.web-name{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0px 0px 20px;
+}
+.web-main{
+    margin-left: 40px;
+
+}
+.web-name img{
+    width: 60px;
+    margin-right: 20px;
+    
+}
+
+.web-name h4{
+    color: coral;
+    font-size: 30px;
+    margin-top: 10px;
+    font-weight: 700;
+}
+.web-title{
+    margin: 20px 0px 0px 100px;
+    font-weight: 700;
+    font-size: 20px;
+}
 .study-plan-container{
     display: grid;
-    grid-template-columns: 3fr 1fr; 
+    grid-template-columns: 7fr 3fr; 
 }
 
 .subjects{
-    margin: 40px 40px 40px 40px;
+    margin: 10px 40px 40px 40px;
+    padding: 20px;
     background-color: white;
 border-radius: 30px;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
@@ -13,7 +42,7 @@ border-radius: 30px;
 .study-calculation{
     margin: 0px 0px 0px 10px;
     background-color: white;
-    position: sticky;
+    
 }
 
 @media only screen and (max-width: 1000px) {

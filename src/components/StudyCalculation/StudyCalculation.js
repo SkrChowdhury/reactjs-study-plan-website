@@ -8,7 +8,7 @@ const StudyCalculation = () => {
   return (
     <div className="sidebar">
       <div className="user">
-        <img className="w-25" src={userImage} alt="" />
+        <img className="w-25" srcSet={userImage} alt="" />
         <div>
           <h5>Sakkar Chowdhury</h5>
           <p>Chattogram,Bangladesh</p>
@@ -18,24 +18,24 @@ const StudyCalculation = () => {
       <p className="fs-5 fw-bold text-start">Add a Break</p>
 
       <div className="add-break">
-        <ul class="nav justify-content-center">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">
+        <ul className="nav justify-content-center">
+          <li className="nav-item">
+            <a className="nav-link active" aria-current="page" href="#">
               10m
             </a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">
+          <li className="nav-item">
+            <a className="nav-link" href="#">
               20m
             </a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">
+          <li className="nav-item">
+            <a className="nav-link" href="#">
               30m
             </a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">
+          <li className="nav-item">
+            <a className="nav-link" href="#">
               40m
             </a>
           </li>
@@ -49,9 +49,7 @@ const StudyCalculation = () => {
         <p className="time-style">Break Time: </p>
       </div>
 
-      <button className="btn-study-complete">
-        Study Completed
-      </button>
+      <button className="btn-study-complete">Study Completed</button>
     </div>
   );
 };
