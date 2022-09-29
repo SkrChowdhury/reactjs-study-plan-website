@@ -29,12 +29,13 @@
     margin: auto;
     border-radius: 50%;
     background-color: white;
+    
    
 }
 
 .add-break .nav-item a {
-    font-size: 12px;
-    font-weight: 500;
+    font-size: 14px;
+    font-weight: 700;
     padding: 15px;
     color: black;
 }
