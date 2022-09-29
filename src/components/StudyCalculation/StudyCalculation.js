@@ -38,7 +38,7 @@ const StudyCalculation = (props) => {
         </div>
       </div>
 
-      <p className="fs-5 fw-bold text-start">Add a Break</p>
+      <p className="fs-5 fw-bold text-start">Add a Break (Minutes)</p>
 
       <div className="add-break">
         <ul className="nav justify-content-center">

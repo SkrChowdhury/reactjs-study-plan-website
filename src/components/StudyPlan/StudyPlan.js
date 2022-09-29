@@ -26,7 +26,7 @@ const StudyPlan = () => {
           <img srcSet={logo} alt="" />
           <h4>Study Plan</h4>
         </div>
-        <p className="web-title text-center text-lg-start ms-5 mt-3 mb-0">
+        <p className="web-title text-center text-lg-start ms-lg-5 mt-3 mb-0">
           Select Todays Study Plan
         </p>
       </div>
