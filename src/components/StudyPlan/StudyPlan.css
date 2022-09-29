@@ -41,7 +41,7 @@ border-radius: 30px;
 .study-calculation{
     margin: 10px 10px 0px 10px;
     background-color: white;
-    height: 730px;
+    max-height: 770px;
     border-radius: 30px;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     position: sticky;
@@ -54,9 +54,6 @@ border-radius: 30px;
 .study-plan-container{
     display: grid;
     grid-template-columns: 1fr;
-
-
-
 }
     .web-title{
         text-align: center;

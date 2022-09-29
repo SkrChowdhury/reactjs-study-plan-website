@@ -4,6 +4,9 @@
   grid-template-columns: 1fr 2fr;
  
 }
+.card-text{
+  text-align: justify;
+}
 .card-horizontal img{
     width: 800px;
     height: 100%;

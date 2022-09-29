@@ -16,7 +16,7 @@ const Blogs = () => {
             ></img>
           </div>
           <div className="card-body">
-            <h4 className="card-title">How Dows React Works?</h4>
+            <h4 className="card-title">How Does React Works?</h4>
             <p className="card-text">
               <strong>Answer: </strong>
               <br />
