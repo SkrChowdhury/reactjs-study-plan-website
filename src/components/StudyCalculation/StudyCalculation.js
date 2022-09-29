@@ -14,7 +14,7 @@ const StudyCalculation = (props) => {
     totalStudyTime = totalStudyTime + breakTime.time;
   }
 
-  const [breakTimes, setBreakTimes] = useState([]);
+  const [breakTimes, setBreakTimes] = useState(0);
   const breakTimeShow = (e) => {
     const breakTime = e.target.innerHTML;
     localStorage.setItem('break-time', JSON.stringify(breakTime));
