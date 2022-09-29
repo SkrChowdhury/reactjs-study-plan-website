@@ -1,14 +1,17 @@
 import './Subjects.css';
-
 import React from 'react';
+const Subjects = ({ handleAddToList, subject }) => {
+  const { subjectName, subjectDetails, time, img } = subject;
 
-const Subjects = (props) => {
-  const { subjectName, subjectDetails, time, img } = props.subject;
   return (
     <div>
       <div className="col">
         <div className="card shadow-sm">
-          <img srcSet={img} className="card-img-top rounded shadow-sm" alt="..."></img>
+          <img
+            srcSet={img}
+            className="card-img-top srounded shadow-sm"
+            alt="..."
+          ></img>
           <div className="card-body">
             <h5 className="card-title fw-bold fs-4">{subjectName}</h5>
             <p className="card-text text-justify text-gray">
@@ -18,7 +21,12 @@ const Subjects = (props) => {
               Time Required: {time} hours{' '}
             </p>
 
-            <button className="btn-add-to-list">Add to List</button>
+            <button
+              onClick={() => handleAddToList(subject)}
+              className="btn-add-to-list"
+            >
+              Add to List
+            </button>
           </div>
         </div>
       </div>

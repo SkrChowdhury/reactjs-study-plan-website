@@ -4,7 +4,7 @@ import userImage from '../../user-image.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLocationDot } from '@fortawesome/free-solid-svg-icons';
 
-const StudyCalculation = () => {
+const StudyCalculation = (props) => {
   return (
     <div className="sidebar">
       <div className="user">
@@ -44,6 +44,7 @@ const StudyCalculation = () => {
 
       <div>
         <p className="fs-5 fw-bold text-start">Study Details</p>
+        <p className="time-style">Selected Subjects: {props.studyTimes.length} </p>
 
         <p className="time-style">Study Time : </p>
         <p className="time-style">Break Time: </p>

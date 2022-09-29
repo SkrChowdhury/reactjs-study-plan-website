@@ -7,11 +7,17 @@ import Blogs from '../Blogs/Blogs';
 
 const StudyPlan = () => {
   const [subjects, setSubjects] = useState([]);
+  const [studyTimes,setStudyTimes] = useState([]);
   useEffect(() => {
     fetch('subjects.json')
       .then((res) => res.json())
       .then((data) => setSubjects(data));
   }, []);
+
+  const handleAddToList = (subject) =>{
+    const newStudyTimes = [...studyTimes,subject];
+    setStudyTimes(newStudyTimes);
+  }
 
   return (
     <div>
@@ -27,12 +33,16 @@ const StudyPlan = () => {
       <div className="study-plan-container">
         <div className="subjects row row-cols-1 row-cols-md-3 g-4">
           {subjects.map((subject) => (
-            <Subjects key={subject.id} subject={subject}></Subjects>
+            <Subjects
+              key={subject.id}
+              subject={subject}
+              handleAddToList={handleAddToList}
+            ></Subjects>
           ))}
         </div>
 
         <div className="study-calculation">
-          <StudyCalculation></StudyCalculation>
+          <StudyCalculation studyTimes={studyTimes}></StudyCalculation>
         </div>
       </div>
       <Blogs></Blogs>
